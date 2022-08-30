@@ -11,13 +11,17 @@
 
 
 ## Introduction
- this circuit 
+
+ this projects for working with standard power supply 32V , 
+ while certain electronic devices, components, IC’s,   sensors ,
+ motors or microcontrollers designed to work on 12V , 9V , 5V ,3.3V DC supply
+ as a power source.so we will made a circuit supply several voltiges 
+ 
   
 
 
 ## Technologies
 Project is created with:
-* Arduino IDE 1.8.19 [To Downloud](https://www.arduino.cc/en/software)
 * Proteus [To Downloud](https://www.labcenter.com/simulation/)
 	
 ## Components required
@@ -56,20 +60,4 @@ Project is created with:
      
      
 ## Block diagram & simulation
-### 1. Unipolar Stepper with ULN2003 . [see here](https://github.com/Wafaa-Almadhoun/Stepper-motor-using-Arduino-UNO-R3-/blob/main/stepper%20using%20ULN2003.pdsprj)
-##### Slow - 4-step CW sequence to observe lights on driver board
-![1](https://user-images.githubusercontent.com/64277741/179306291-f9684758-deaf-4828-9520-757a142ba537.PNG)
-Figure (1): Stepper Motor at 90 degree after 1-step CW sequence
-![2](https://user-images.githubusercontent.com/64277741/179307189-82e1089f-4cbb-403a-b78c-a4c990c24522.PNG)
-Figure (2): Stepper Motor at 180 degree after 2-step CW sequence
-![3](https://user-images.githubusercontent.com/64277741/179307421-bbcf698d-139f-4d30-aae9-9546c057fb68.PNG)
-Figure (3): Stepper Motor at 270 degree after 3-step CW sequence
-![4](https://user-images.githubusercontent.com/64277741/179307644-0f9d39bf-591d-45a1-b9c4-d38ec8528d7d.PNG)
-Figure (4): Stepper Motor at 342 degree after 4-step CW sequence
-##### Rotate CW 1/2 turn slowly
-![5](https://user-images.githubusercontent.com/64277741/179308867-85dbccdc-5070-4164-82c7-9776d4b09fc9.PNG)
-Figure (5): Rotate CW 1/2 turn slowly
-##### Rotate CCW 1/2 turn quickly
-![6](https://user-images.githubusercontent.com/64277741/179309329-1eed85e5-3f0d-48a3-b2be-3d9a40e71869.PNG)
-Figure (6): Rotate CCW 1/2 turn quickly
 
