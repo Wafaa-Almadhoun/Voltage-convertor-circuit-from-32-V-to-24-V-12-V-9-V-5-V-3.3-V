@@ -61,3 +61,5 @@ Project is created with:
      
 ## Block diagram & simulation
 
+![Screenshot 2022-08-30 061251](https://user-images.githubusercontent.com/64277741/187340677-abcdcf13-0e64-4d81-938a-cb310b58be10.png)
+
