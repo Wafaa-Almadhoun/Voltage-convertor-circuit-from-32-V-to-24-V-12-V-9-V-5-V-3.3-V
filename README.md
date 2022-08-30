@@ -11,14 +11,7 @@
 
 
 ## Introduction
-Stepper motors are an ideal choice for accurately moving and positioning mechanical devices. Using techniques like microstepping the position of the motor shaft can be controlled with a great deal of precision, stepper Motors are used in a wide variety of devices ranging from 3D printers and CNC machines to DVD drives, heating ducts, and even analog clocks , stepper motors are DC motors that rotate in precise increments or “steps”.
-
-  ,We will cover several topics : 👍 
-
-
- 1. Unipolar Stepper with ULN2003.
- 2. Bipolar Stepper with L293D Motor Driver IC.
- 3. BIG Stepper Motors NEMA 23 Bipolar with DM860A Microstep Driver . 
+ this circuit 
   
 
 
@@ -28,13 +21,16 @@ Project is created with:
 * Proteus [To Downloud](https://www.labcenter.com/simulation/)
 	
 ## Components required
-### 1. Unipolar Stepper with ULN2003 
-    1. Arduino UNO
-    2. 1 – 28BYJ-48 Unipolar Stepper
-    3. jumper wirs
-    4. driver board ULN2003
-    5. bettrey  5 and 12 volt 
-    6. breadboard
+
+    1. 1X 10uF capacitor
+    2. 1X 22uF capacitor
+    3. 1X IC LM1117T- 3.3v 
+    4. 4X 330nF capacitor 
+    5. 4X 100nF capacitor 
+    6. Battery 32 V
+    7. 1X LM7824CT , LM7812CT, LM7809CT and LM7805CT
+    
+    
     
 
     
@@ -42,18 +38,22 @@ Project is created with:
 
 ### 1. Unipolar Stepper with ULN2003
 
-     connecting ULN2003 pin1 to pin 8 in Ardunio
-     connecting ULN2003 pin2 to pin 9 in Ardunio
-     connecting ULN2003 pin3 to pin 10 in Ardunio
-     connecting ULN2003 pin4 to pin 11 in Ardunio
-     connecting ULN2003 pin16 to pin1 in stepper
-     connecting ULN2003 pin15 to pin2 in stepper
-     connecting ULN2003 pin14 to pin3 in stepper
-     connecting ULN2003 pin13 to pin4 in stepper
-     connecting ULN2003 pin9 and the 2 2VDD pin in stepper motor to 12v battery 
-     Connect ground to ground
+     connecting LM7824CT  pinINPUT to 32 V battery  and 330nF  capacitor then all conecteing with GND
+     , pin GND to GND and pinOUTPUT to 100nF capacitor then to GND .
      
+     connecting  LM7812CT pinINPUT to 24 V output and 330nF  capacitor then all conecteing with GND
+     , pin GND to GND and pinOUTPUT to 100nF capacitor then to GND .
  
+     connecting  LM7809CT pinINPUT to 12 V output and 330nF  capacitor then all conecteing with GND
+     , pin GND to GND and pinOUTPUT to 100nF capacitor then to GND .
+     
+     connecting LM7805CT pinINPUT to 9 V output and 330nF  capacitor then all conecteing with GND
+     , pin GND to GND and pinOUTPUT to 100nF capacitor then to GND .
+     
+     connecting IC LM1117T- 3.3v  pinINPUT to 5 V output and 10uF  capacitor then all conecteing with GND
+     , pin GND to GND and pinOUTPUT to 22uF capacitor then to GND .
+     
+     
      
 ## Block diagram & simulation
 ### 1. Unipolar Stepper with ULN2003 . [see here](https://github.com/Wafaa-Almadhoun/Stepper-motor-using-Arduino-UNO-R3-/blob/main/stepper%20using%20ULN2003.pdsprj)
